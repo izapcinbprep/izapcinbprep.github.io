@@ -1,68 +1,21 @@
 p{color:yellowgreen;
 font-family:'fantasy';}
+body {
+    background-image: url("path/to/your/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Add any additional styles you want here */
+}
+
 .profile-customization {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .profile-customization h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .profile-customization label {
-    display: block;
-    margin-top: 10px;
-  }
-  
-  .profile-customization input,
-  .profile-customization textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .profile-customization button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .profile-customization button:hover {
-    background-color: #0056b3;
-  }
-  .pick-up-line-generator {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .pick-up-line-generator h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .pick-up-line-generator button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .pick-up-line-generator button:hover {
-    background-color: #0056b3;
-  }
-  
-  .pick-up-line-generator p {
-    margin-top: 10px;
-    font-style: italic;
+    /* Your profile customization styles */
+}
+
+.pick-up-line-generator {
+    /* Your pick-up line generator styles */
+}
+
   }
   body {
     background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=u6p7E7EK&id=9E5265486034F9B9BC77084515504745BCD959B1&thid=OIP.u6p7E7EKREru6TwBtBGNjwHaE8&mediaurl=https%3a%2f%2fphiliprotner.com%2fwp-content%2fuploads%2f2017%2f08%2fswamp-photo.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.bbaa7b13b10a444aeee93c01b4118d8f%3frik%3dsVnZvEVHUBVFCA%26pid%3dImgRaw%26r%3d0&exph=1414&expw=2121&q=swamp+images&simid=608007592571516184&FORM=IRPRST&ck=FD3A19C1DE3D7B0B7551F66D174495BE&selectedIndex=6&ajaxhist=0&ajaxserp=0path/to/your/image.jpg");
