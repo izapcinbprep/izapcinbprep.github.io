@@ -31,16 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         resultSection.innerHTML = result;
     });
-});
-  <script>src="script.js"</script>
-  </body>
-  <img src="https://images.nightcafe.studio/jobs/bMM9QM26jC2dX3QezEJ9/bMM9QM26jC2dX3QezEJ9--1--msc04.jpg?tr=w-1600,c-at_max"/>";
-      resultSection.innerHTML = `<p>${result}</p>`;
-  document.addEventListener("DOMContentLoaded", function () {
+
     const profileForm = document.getElementById("profile-form");
     const displayUsername = document.getElementById("display-username");
     const displayInterests = document.getElementById("display-interests");
-    const displayProfilePic = document.getElementById("display-profile-pic");
+    // const displayProfilePic = document.getElementById("display-profile-pic"); // You can include this if you want to display a profile picture
 
     profileForm.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -48,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const username = document.getElementById("username").value;
         const interests = document.getElementById("interests").value;
         // You can handle the profile picture upload here as well
-        
+
         displayUsername.textContent = username;
         displayInterests.textContent = interests;
         // Set the profile picture source here
