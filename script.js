@@ -1,5 +1,8 @@
-const form = document.getElementById("quiz")
-    submitButton.addEventListener("click", function () {
+const form = document.getElementById("quiz");
+form.addEventListener("submit",submitted);
+    function submitted(event){
+        event.preventDefault();
+        const resultSection=document.getElementById("result")
         resultSection.innerHTML = "";
 
         const resultdisplay0 = document.createElement('h1');
