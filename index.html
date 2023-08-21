@@ -12,49 +12,64 @@
         <h1>Find Your Perfect Match with Beef Glerky</h1>
     </header>
     <section id="quiz">
-        <h2>Question 1:(only scroll down once you fave finished quiz. your result will appear at bottom of site)</h2>
-        <p>What's your favorite outdoor activity?</p>
-        <label><input type="radio" name="q1" value="cheerleading">Cheerleading</label>
-        <label><input type="radio" name="q1" value="hiking">Hiking</label>
-        <label><input type="radio" name="q1" value="swimming">Swimming</label>
-        <label><input type="radio" name="q1" value= "other">Other</label>
-        <button id="submit-btn">Find My Match</button>
-    </section>
-    <section id="result">
-        <!-- Match result will be displayed here -->
-    </section>
-
+        <section id="quiz">
+            <section id="quiz">
+                <h2>Question 1: </h2>
+                <p>What's your favorite activity?</p>
+                <label><input type="radio" name="q1" value="cheerleading">Cheerleading</label>
+                <label><input type="radio" name="q1" value="hiking">Farting</label>
+                <label><input type="radio" name="q1" value="swimming">Eating beans</label>
+                <label><input type="radio" name="q1" value="other">Swimming (in swamp)</label>
+                <button id="submit-btn">Find My Match</button>
+            </section>
+            
+        <section id="result">
+            <!-- Match result will be displayed here -->
+        </section>
+        
+        <!-- ... Rest of your HTML code ... -->
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const submitButton = document.getElementById("submit-btn");
+                const resultSection = document.getElementById("result");
+        
+                submitButton.addEventListener("click", function () {
+                    const result = "Your perfect match is Beef Glerky!";
+                    resultSection.innerHTML = `<p>${result}</p>`;
+                });
+            });
+        </script>
     <div class="profile-customization">
         <h2>Customize Your Profile</h2>
-        <form>
+        <form id="profile-form">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
-
+    
             <label for="interests">Interests:</label>
             <textarea id="interests" name="interests" rows="4"></textarea>
-
+    
             <label for="profile-pic">Profile Picture:</label>
             <input type="file" id="profile-pic" name="profile-pic">
-
+    
             <button type="submit">Save Changes</button>
         </form>
     </div>
-
+    
     <section id="profile-details">
         <h2>Profile Details</h2>
-        <!-- Display user information retrieved from a database -->
-        <p>Name: [User's Name]</p>
-        <p>Age: [User's Age]</p>
-        <p>Location: [User's Location]</p>
+        <p>Name: <span id="display-username"></span></p>
+        <p>Interests: <span id="display-interests"></span></p>
+        <p>Profile Picture: <img id="display-profile-pic" src="" alt="Profile Picture"></p>
         <!-- Add more profile information as needed -->
         <a href="edit_profile.html">Edit Profile</a>
     </section>
-
+    
     <section id="profile-images">
         <h2>Your Photos</h2>
         <!-- Display user's profile images -->
         <!-- You can use <img> tags or CSS for styling profile images -->
-    </section>
+    </section>    
 
     <section id="generator">
         <h2>Beef Glerky Pick Up Line Generator</h2>
