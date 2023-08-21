@@ -15,21 +15,21 @@
         <form name="quiz" id="quiz">
                 <h2>Question 1: </h2>
                 <p>What's your favorite activity?</p>
-                <label><input type="radio" name="q1" value="cheerleading">Cheerleading</label>
-                <label><input type="radio" name="q1" value="hiking">Farting</label>
-                <label><input type="radio" name="q1" value="swimming">Eating beans</label>
-                <label><input type="radio" name="q1" value="other">Swimming (in swamp)</label>
-                <button id="submit-btn">Find My Match</button>
+                <input type="radio" name="q1" value="cheerleading">Cheerleading
+                <input type="radio" name="q1" value="hiking">Farting
+                <input type="radio" name="q1" value="swimming">Eating beans
+                <input type="radio" name="q1" value="other">Swimming (in swamp)
+                <button type="submit" name="submit" id="submit">Find My Match</button>
     </form>
             </div>
             
-        <section id="result">
+        <div id="result">
             <!-- Match result will be displayed here -->
-        </section>
+        </div>
         
         <!-- ... Rest of your HTML code ... -->
         
-        <script>
+        <!-- <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const submitButton = document.getElementById("submit-btn");
                 const resultSection = document.getElementById("result");
@@ -39,7 +39,7 @@
                     resultSection.innerHTML = `<p>${result}</p>`;
                 });
             });
-        </script>
+        </script> -->
     <div class="profile-customization">
         <h2>Customize Your Profile</h2>
         <form id="profile-form">
@@ -74,15 +74,13 @@
     <section id="generator">
         <h2>Beef Glerky Pick Up Line Generator</h2>
         <button id="generate-btn">Generate Pick Up Line</button>
-        <div id="result"></div>
+        <!-- <div id="result"></div> -->
     </section>
 
    
     <!-- Add your JavaScript script here -->
-    <script src="your-script.js"></script>
-
-    <title>You have been matched with Beef Glerky!</title>
-</head>
+    <script src="script.js"></script>
+</body>
 <footer>
     <p>&copy; 2023 Beef Glerky Dating. All rights reserved.</p>
 </footer>
