@@ -1,7 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const submitButton = document.getElementById("submit-btn");
-    const resultSection = document.getElementById("result");
-
+const form = document.getElementById("quiz")
     submitButton.addEventListener("click", function () {
         resultSection.innerHTML = "";
 
@@ -83,4 +80,3 @@ document.addEventListener("DOMContentLoaded", function () {
         displayUsername.textContent = username;
         displayInterests.textContent = interests;
     });
-});
