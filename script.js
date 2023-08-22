@@ -9,8 +9,6 @@ function submitted(event) {
     display.textContent = "form submitted";
     results.appendChild(dsiplay);
 
-}
-
      function submitted(event){
      event.preventDefault();
      const resultSection=document.getElementById("result")
@@ -80,6 +78,7 @@ function submitted(event) {
     resultdisplay15.textContent = "So, if you'r3 up for a cosmic rollin' *fart* journey through my swampy hav3n, l3t's div3 into th3 fragrant tap3stry *fart* of mysthic wonders. W3'll uncov3r s3cr3ts *fart* 🌌🤫, indulg3 in gassy d3lights, and 3xplor3 the cosmos *fart* with a dash of swampy charm. R3ady to roll into th3 *fart* adventur3? 🌌🌿🌮🌌💖";
     resultSection.appendChild(resultdisplay15);
     };
+}
 
     const profileForm = document.getElementById("profile-form");
     const displayUsername = document.getElementById("display-username");
