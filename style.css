@@ -1,16 +1,24 @@
-p{color:yellowgreen;
-font-family:'fantasy';}
+p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'fantasy';
+}
+
 .profile-customization {
     /* Your profile customization styles */
 }
+
 .pick-up-line-generator {
     /* Your pick-up line generator styles */
 }
+
 body {
     background-image: url("https://philiprotner.com/wp-content/uploads/2017/08/swamp-photo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    /* You can add more styles here */} 
-.main{
+    /* You can add more styles here */
+}
+
+.main {
 }
