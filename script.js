@@ -6,13 +6,8 @@ function submitted(event) {
     const results = document.getElementById("result")
     results.innerHTML = "";
     const display = document.createElement('h1');
-    display.textContent = "form submitted";
-    results.appendChild(dsiplay);
-
-     function submitted(event){
-     event.preventDefault();
-     const resultSection=document.getElementById("result")
-    resultSection.innerHTML = "";
+    display.textContent = "You are matched with Beef Glerky!";
+    results.appendChild(display);
 
     const resultdisplay0 = document.createElement('h1');
     resultdisplay0.textContent = "Your perfect match is Beef Glerky!";
@@ -72,18 +67,20 @@ function submitted(event) {
        
     const resultdisplay14 = document.createElement('p');
     resultdisplay14.textContent = "Joinin' m3 in the swamp ar3 Fartran, *fart* the Pusheen-lik3 dragon 🐉😺, Lun3yTun3s, the Pikachu on a cosmic joyrid3 ⚡🛸, and ol' witch XanTDM with h3r ancient *fart* magik. Tog3th3r, w3'r3 rollin' *fart* through the swampy r3alm and its aromatic s3cr3ts. Com3 join th3 cosmic *fart* bean party! 🎉🌲🌮";
-    resultSection.appendChild(resultdisplay14);
+        resultSection.appendChild(resultdisplay14);
        
     const resultdisplay15 = document.createElement('p');
     resultdisplay15.textContent = "So, if you'r3 up for a cosmic rollin' *fart* journey through my swampy hav3n, l3t's div3 into th3 fragrant tap3stry *fart* of mysthic wonders. W3'll uncov3r s3cr3ts *fart* 🌌🤫, indulg3 in gassy d3lights, and 3xplor3 the cosmos *fart* with a dash of swampy charm. R3ady to roll into th3 *fart* adventur3? 🌌🌿🌮🌌💖";
     resultSection.appendChild(resultdisplay15);
-    };
-}
 
     const profileForm = document.getElementById("profile-form");
     const displayUsername = document.getElementById("display-username");
     const displayInterests = document.getElementById("display-interests");
 
-    profileForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+    // profileForm.addEventListener("submit", function (event) {
+    //     event.preventDefault();
 
+    //     const username = document.getElementById("username").value;
+    //     const interests = document.getElementById("interests").value;
+
+}
