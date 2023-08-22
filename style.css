@@ -1,9 +1,11 @@
-p {
+/* Apply the white color and black text outline to all text */
+body, h1, h2, h3, p, label, button, a {
     color: white;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
     font-family: 'fantasy';
 }
 
+/* Additional specific styles can be added for different elements if needed */
 .profile-customization {
     /* Your profile customization styles */
 }
@@ -21,4 +23,7 @@ body {
 }
 
 .main {
+    /* Additional styles for the main content */
 }
+
+/* ... Add more specific styles for other elements as needed ... */
