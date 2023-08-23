@@ -65,3 +65,27 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+const pickUpLines = [
+    "Are you a cosmic explorer? Because my heart is lighting up like a swampy supernova when I see you!",
+    "Are you made of stardust? Because being with you feels like a celestial journey through the swampy cosmos!",
+    "Are you a magical bean? Because you've definitely cast a spell on my swampy heart.",
+    "Is your name Glerky? Because you've got me trippin' over cosmic roots and falling into your swampy charm!",
+    "Is your laughter the melody of the cosmos? Because every time you laugh, my heart does a celestial jig!",
+    "Do you believe in intergalactic connections? Because I think we're cosmically aligned, just like the stars in the swampy sky!",
+    "Do you have a map? Because I just got lost in your eyes, and I need a guide to navigate through this cosmic enchantment!",
+    "Are you a gassy wonder from the mystic swamp? Because being with you makes me feel like I'm floating among the stars!",
+    "Is your smile brighter than a supernova? Because every time you smile, my swampy world lights up!",
+    "Do you have a little bit of swampy magic in you? Because you've cast a spell on my heart, and I'm totally enchanted!"
+];
+
+const generateBtn = document.getElementById("generate-btn");
+const resultDiv = document.getElementById("result");
+
+generateBtn.addEventListener("click", generatePickUpLine);
+
+function generatePickUpLine() {
+    const randomIndex = Math.floor(Math.random() * pickUpLines.length);
+    const randomPickUpLine = pickUpLines[randomIndex];
+
+    resultDiv.textContent = randomPickUpLine;
+}
