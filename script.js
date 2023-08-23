@@ -22,11 +22,6 @@ function submitted(event) {
         { title: "Favorite Movie and Aspirations", content: "Shrek's my go-to flick, fart 'caus3 that big green guy's all 'bout bein' tru3 to hims3lf. Just lik3 m3, embracin' the swampy cosmic *fart* life with confid3nc3! 💚🌌" },
         { title: "Seeking Alike Minds", content: "If you'r3 up for rollin' *fart* into cosmic mysteries 🌌🔍 and indulgin' in the uniqu3 fragrance of the swamp, w3'r3 cosmically *fart* align3d. L3t's chat about beans, magik, and all things cosmic! 🌠🌮🔮" },
         { title: "Otherworldly Companionship", content: "Joinin' m3 in the swamp ar3 Fartran, *fart* the Pusheen-lik3 dragon 🐉😺, Lun3yTun3s, the Pikachu on a cosmic joyrid3 ⚡🛸, and ol' witch XanTDM with h3r ancient *fart* magik..." },
-        {
-            title: "Profile Picture",
-            content: "Check out my cosmic profile picture:",
-            image: "https://images.nightcafe.studio/jobs/bMM9QM26jC2dX3QezEJ9/bMM9QM26jC2dX3QezEJ9--1--msc04.jpg?tr=w-1600,c-at_max"
-        },
         { content: "So, if you'r3 up for a cosmic rollin' *fart* journey through my swampy hav3n, l3t's div3 into th3 fragrant tap3stry *fart* of mysthic wonders. W3'll uncov3r s3cr3ts *fart* 🌌🤫, indulg3 in gassy d3lights, and 3xplor3 the cosmos *fart* with a dash of swampy charm. R3ady to roll into th3 *fart* adventur3? 🌌🌿🌮🌌💖" }
     ];
 
@@ -75,7 +70,17 @@ const pickUpLines = [
     "Do you have a map? Because I just got lost in your eyes, and I need a guide to navigate through this cosmic enchantment!",
     "Are you a gassy wonder from the mystic swamp? Because being with you makes me feel like I'm floating among the stars!",
     "Is your smile brighter than a supernova? Because every time you smile, my swampy world lights up!",
-    "Do you have a little bit of swampy magic in you? Because you've cast a spell on my heart, and I'm totally enchanted!"
+    "Do you have a little bit of swampy magic in you? Because you've cast a spell on my heart, and I'm totally enchanted!",
+    "eat sock",
+    "Are you a Minecraft fence? Because I can't get over you",
+    "Did you fart? Cause you blew me away!",
+    "I AM BEEF GLERKY, GLERKY OF THE BEEF! BOW DOWN TO ME!!!",
+    "Come Here please, my head itches Like The hives Disease",
+    "How Would You Like To succ Lord Voldemort Nose",
+    "You're very dank for A meme",
+    "Are You my Mom? Because you Look Like My Father? 's wife what?",
+    "Doge Doge Doge Doge Doge",
+    "Are You going to poop first"
 ];
 
 const generateBtn = document.getElementById("generate-btn");
