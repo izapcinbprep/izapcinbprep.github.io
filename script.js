@@ -80,7 +80,11 @@ const pickUpLines = [
     "You're very dank for A meme",
     "Are You my Mom? Because you Look Like My Father? 's wife what?",
     "Doge Doge Doge Doge Doge",
-    "Are You going to poop first"
+    "Are You going to poop first",
+    "fart Smile on your mom must die",
+    "Sunshine smells like your favorite fart jokes and laughter poop cleaning nut delicious",
+    "Voldemort magic nose tickling sneeze bless you what?",
+    "Ploop cosmic is my favorite constellation in the sky when I see moop and toilet smiles AAAAAAAAAAAAAAAAAAAAAAAAA",
 ];
 
 const generateBtn = document.getElementById("generate-btn");
