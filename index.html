@@ -40,43 +40,48 @@
                 });
             });
         </script> -->
-    <div class="profile-customization">
-        <h2>Customize Your Profile</h2>
-        <form id="profile-form">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-    
-            <label for="interests">Interests:</label>
-            <textarea id="interests" name="interests" rows="4"></textarea>
-    
-            <label for="profile-pic">Profile Picture:</label>
-            <input type="file" id="profile-pic" name="profile-pic">
-    
-            <button type="submit">Save Changes</button>
-        </form>
-    </div>
-    
-    <section id="profile-details">
-        <h2>Profile Details</h2>
-        <p>Name: <span id="display-username"></span></p>
-        <p>Interests: <span id="display-interests"></span></p>
-        <p>Profile Picture: <img id="display-profile-pic" src="" alt="Profile Picture"></p>
-        <!-- Add more profile information as needed -->
-        <a href="edit_profile.html">Edit Profile</a>
-    </section>
-    
-    <section id="profile-images">
-        <h2>Your Photos</h2>
-        <!-- Display user's profile images -->
-        <!-- You can use <img> tags or CSS for styling profile images -->
-    </section>    
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Profile Customization</title>
+        </head>
+        <body>
+            <div class="profile-customization">
+                <h2>Customize Your Profile</h2>
+                <form id="profile-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="interests">Interests:</label>
+                    <textarea id="interests" name="interests" rows="4"></textarea>
+        
+                    <label for="profile-pic">Profile Picture:</label>
+                    <input type="file" id="profile-pic" name="profile-pic">
+        
+                    <button type="submit">Save Changes</button>
+                </form>
+            </div>
+        
+            <section id="profile-details">
+                <h2>Profile Details</h2>
+                <p>Name: <span id="display-username"></span></p>
+                <p>Interests: <span id="display-interests"></span></p>
+                <p>Profile Picture: <img id="display-profile-pic" src="" alt="Profile Picture"></p>
+                <a href="#" id="edit-profile-link">Edit Profile</a>
+            </section>
+        
+            <script src="your-script-file.js"></script>
+        </body>
+        </html>
+        
 
     <section id="generator">
         <h2>Beef Glerky Pick Up Line Generator</h2>
         <button id="generate-btn">Generate Pick Up Line</button>
         <!-- <div id="result"></div> -->
     </section>
-
    
     <!-- Add your JavaScript script here -->
     <script src="script.js"></script>

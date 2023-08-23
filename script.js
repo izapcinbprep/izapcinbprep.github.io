@@ -33,3 +33,30 @@ function submitted(event) {
     });
 
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const profileForm = document.getElementById("profile-form");
+    const displayUsername = document.getElementById("display-username");
+    const displayInterests = document.getElementById("display-interests");
+    const displayProfilePic = document.getElementById("display-profile-pic");
+    const editProfileLink = document.getElementById("edit-profile-link");
+
+    profileForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const username = document.getElementById("username").value;
+        const interests = document.getElementById("interests").value;
+        const profilePic = document.getElementById("profile-pic").files[0];
+
+        displayUsername.textContent = username;
+        displayInterests.textContent = interests;
+
+        if (profilePic) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                displayProfilePic.src = event.target.result;
+            };
+            reader.readAsDataURL(profilePic);
+        }
+    });
+});
+
