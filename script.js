@@ -85,7 +85,9 @@ const pickUpLines = [
     "Sunshine smells like your favorite fart jokes and laughter poop cleaning nut delicious",
     "Voldemort magic nose tickling sneeze bless you what?",
     "Ploop cosmic is my favorite constellation in the sky when I see moop and toilet smiles AAAAAAAAAAAAAAAAAAAAAAAAA",
-    "Are me you is your mine because you must've eaten a sock?"
+    "Are me you is your mine because you must've eaten a sock?",
+    "Is your name a Wi-Fi password because it looks bad",
+    "Hey, are you a train wreck? Cuz' I can't stop looking at you",
 ];
 
 const generateBtn = document.getElementById("generate-btn");
