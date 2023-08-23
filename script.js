@@ -22,6 +22,11 @@ function submitted(event) {
         { title: "Favorite Movie and Aspirations", content: "Shrek's my go-to flick, fart 'caus3 that big green guy's all 'bout bein' tru3 to hims3lf. Just lik3 m3, embracin' the swampy cosmic *fart* life with confid3nc3! 💚🌌" },
         { title: "Seeking Alike Minds", content: "If you'r3 up for rollin' *fart* into cosmic mysteries 🌌🔍 and indulgin' in the uniqu3 fragrance of the swamp, w3'r3 cosmically *fart* align3d. L3t's chat about beans, magik, and all things cosmic! 🌠🌮🔮" },
         { title: "Otherworldly Companionship", content: "Joinin' m3 in the swamp ar3 Fartran, *fart* the Pusheen-lik3 dragon 🐉😺, Lun3yTun3s, the Pikachu on a cosmic joyrid3 ⚡🛸, and ol' witch XanTDM with h3r ancient *fart* magik..." },
+        {
+            title: "Profile Picture",
+            content: "Check out my cosmic profile picture:",
+            image: "https://images.nightcafe.studio/jobs/bMM9QM26jC2dX3QezEJ9/bMM9QM26jC2dX3QezEJ9--1--msc04.jpg?tr=w-1600,c-at_max"
+        },
         { content: "So, if you'r3 up for a cosmic rollin' *fart* journey through my swampy hav3n, l3t's div3 into th3 fragrant tap3stry *fart* of mysthic wonders. W3'll uncov3r s3cr3ts *fart* 🌌🤫, indulg3 in gassy d3lights, and 3xplor3 the cosmos *fart* with a dash of swampy charm. R3ady to roll into th3 *fart* adventur3? 🌌🌿🌮🌌💖" }
     ];
 
