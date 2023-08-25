@@ -8,98 +8,57 @@
 </head>
 <body>
     <div class="main">
-    <header>
-        <h1>Find Your Perfect Match with Beef Glerky</h1>
-    </header>
-    <div id="quiz">
-        <form name="quiz" id="quiz">
+        <header>
+            <h1>Find Your Perfect Match with Beef Glerky</h1>
+        </header>
+        <div id="quiz">
+            <form name="quiz" id="quiz-form">
                 <h2>Question 1: </h2>
                 <p>What's your favorite activity?</p>
-                <input type="radio" name="q1" value="cheerleading">Cheerleading</br>
-                <input type="radio" name="q1" value="hiking">Farting</br>
-                <input type="radio" name="q1" value="swimming">Eating beans</br>
-                <input type="radio" name="q1" value="other">Swimming (in swamp)</br>
+                <input type="radio" name="q1" value="cheerleading">Cheerleading<br>
+                <input type="radio" name="q1" value="hiking">Farting<br>
+                <input type="radio" name="q1" value="swimming">Eating beans<br>
+                <input type="radio" name="q1" value="other">Swimming (in swamp)<br>
                 <button type="submit" name="submit" id="submit">Find My Match</button>
-    </form>
-            </div>
-            
+            </form>
+        </div>
+        
         <div id="match-result">
             <!-- Match result will be displayed here -->
         </div>
-        
-        <!-- ... Rest of your HTML code ... -->
-        
-        <!-- <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const submitButton = document.getElementById("submit-btn");
-                const resultSection = document.getElementById("result");
-        
-                submitButton.addEventListener("click", function () {
-                    const result = "Your perfect match is Beef Glerky!";
-                    resultSection.innerHTML = `<p>${result}</p>`;
-                });
-            });
-        </script> -->
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Profile Customization</title>
-        </head>
-        <body>
-            <div class="profile-customization">
-                <h2>Customize Your Profile</h2>
-                <form id="profile-form">
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" required>
-        
-                    <label for="interests">Interests:</label>
-                    <textarea id="interests" name="interests" rows="4"></textarea>
-        
-                    <label for="profile-pic">Profile Picture:</label>
-                    <input type="file" id="profile-pic" name="profile-pic">
-        
-                    <button type="submit">Save Changes</button>
-                </form>
-            </div>
-        
-            <section id="profile-details">
-                <h2>Profile Details</h2>
-                <p>Name: <span id="display-username"></span></p>
-                <p>Interests: <span id="display-interests"></span></p>
-                <p>Profile Picture: <img id="display-profile-pic" src="" alt="Profile Picture"></p>
-                <a href="#" id="edit-profile-link">Edit Profile</a>
-            </section>
-        
-            <script src="your-script-file.js"></script>
-        </body>
-        </html>
-        
+    </div>
+    
+    <div class="profile-customization">
+        <h2>Customize Your Profile</h2>
+        <form id="profile-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="interests">Interests:</label>
+            <textarea id="interests" name="interests" rows="4"></textarea>
+            <label for="profile-pic">Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic">
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Beef Glerky Pick Up Line Generator</title>
-        </head>
-        <body>
-            <section id="generator">
-                <h2>Beef Glerky Pick Up Line Generator</h2>
-                <button id="generate-btn">Generate Pick Up Line</button>
-                <div id="pickup-line-result"></div>
-            </section>
-        
-            <script src="script.js"></script>
-        </body>
-        </html>
-        
-   
+    <section id="profile-details">
+        <h2>Profile Details</h2>
+        <p>Name: <span id="display-username"></span></p>
+        <p>Interests: <span id="display-interests"></span></p>
+        <p>Profile Picture: <img id="display-profile-pic" src="" alt="Profile Picture"></p>
+        <a href="#" id="edit-profile-link">Edit Profile</a>
+    </section>
+
+    <section id="generator">
+        <h2>Beef Glerky Pick Up Line Generator</h2>
+        <button id="generate-btn">Generate Pick Up Line</button>
+        <div id="pickup-line-result"></div>
+    </section>
+
     <!-- Add your JavaScript script here -->
     <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 Beef Glerky Dating. All rights reserved.</p>
+    </footer>
 </body>
-<footer>
-    <p>&copy; 2023 Beef Glerky Dating. All rights reserved.</p>
-</footer>
 </html>
