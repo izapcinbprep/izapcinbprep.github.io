@@ -82,7 +82,6 @@ const pickUpLines = [
     "Doge Doge Doge Doge Doge",
     "Are You going to poop first",
     "fart Smile on your mom must die",
-    "Sunshine smells like your favorite fart jokes and laughter poop cleaning nut delicious",
     "Voldemort magic nose tickling sneeze bless you what?",
     "Ploop cosmic is my favorite constellation in the sky when I see moop and toilet smiles AAAAAAAAAAAAAAAAAAAAAAAAA",
     "Are me you is your mine because you must've eaten a sock?",
